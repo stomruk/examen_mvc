@@ -4,6 +4,7 @@ $response = $db->prepare('SELECT * FROM `abonne`');
 $response->execute();
 $abonnes = $response->fetchAll();
 ?>
+<h1>Liste des Abonnés</h1>
 <a href="formulaireAbonne.php">Formulaire Abonnés</a>
 <br>
 <br>
