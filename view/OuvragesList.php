@@ -25,6 +25,7 @@ $ouvrages = $response->fetchAll();
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $ouvrage['id']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $ouvrage['titre']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $ouvrage['auteur']?></td>
+        <td style="border-bottom: black 2px solid; border-right: black 2px solid"><a href="supprimer.php?id=<?= $ouvrage['id']?>&table=`ouvrage`">Supprimer</a></td>
     </tr>
     <?php } ?>
     </tbody>

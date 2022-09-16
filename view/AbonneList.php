@@ -25,6 +25,7 @@ $abonnes = $response->fetchAll();
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $abonne['id']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $abonne['prenom']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $abonne['nom']?></td>
+        <td style="border-bottom: black 2px solid; border-right: black 2px solid"><a href="supprimer.php?id=<?= $abonne['id']?>&table=`abonne`">Supprimer</a></td>
     </tr>
     <?php } ?>
     </tbody>
