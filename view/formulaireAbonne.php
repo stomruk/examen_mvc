@@ -17,7 +17,6 @@ if(!empty($_POST)){
         'prenom' => $abonne->getPrenom()
     ));
 }
-var_dump($abonne);
 
 
 ?>
@@ -26,11 +25,11 @@ var_dump($abonne);
 <form method="post">
     <h1>Formulaire Abonnés</h1>
     <label for="name">Prenom</label>
-    <input type="text" name="prenom" id="name" placeholder="prenom">
+    <input type="text" name="prenom" id="name" placeholder="prenom" required>
     <br>
     <br>
     <label for="lastname">Nom</label>
-    <input type="text" name="nom" id="lastname" placeholder="nom">
+    <input type="text" name="nom" id="lastname" placeholder="nom" required>
     <br>
     <br>
     <button type="submit">Submit</button>

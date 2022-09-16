@@ -6,3 +6,6 @@ include_once ("view/part/footer.php");
 <br>
 <br>
 <a href="view/formulaireOuvrages.php">Formulaire Ouvrages</a>
+<br>
+<br>
+<a href="view/formulaireAssociation.php">Formulaire Association</a>

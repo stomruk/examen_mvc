@@ -27,11 +27,11 @@ if(!empty($_POST)){
 <form method="post">
     <h1>Formulaire Ouvrages</h1>
     <label for="titre">Titre</label>
-    <input type="text" name="titre" id="titre" placeholder="titre">
+    <input type="text" name="titre" id="titre" placeholder="titre" required>
     <br>
     <br>
     <label for="auteur">Auteur</label>
-    <input type="text" name="auteur" id="auteur" placeholder="auteur">
+    <input type="text" name="auteur" id="auteur" placeholder="auteur" required>
     <br>
     <br>
     <button type="submit">Submit</button>
