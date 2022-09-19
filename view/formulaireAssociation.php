@@ -31,7 +31,7 @@ if(!empty($_POST)){
 <a href="../index.php">Homepage</a>
 <br>
 <br>
-<a href="AssociationList.php">Liste des Associations</a>
+<a href="associationList.php">Liste des Associations</a>
 
 <form method="post">
     <h1>Formulaire Ouvrages</h1>

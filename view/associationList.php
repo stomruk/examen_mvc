@@ -25,7 +25,8 @@ $assosiations = $response->fetchAll();
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $assosiation['id']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $assosiation['id_abonne']?></td>
         <td style="border-bottom: black 2px solid; border-right: black 2px solid"><?= $assosiation['id_ouvrage']?></td>
-        <td style="border-bottom: black 2px solid; border-right: black 2px solid"><a href="supprimer.php?id=<?= $assosiation['id']?>&table=`association_abonne_ouvrage`">Supprimer</a></td>
+        <td style="border-bottom: black 2px solid; border-right: black 2px solid"><a href="supprimer.php?id=<?= $assosiation['id']?>&table=`assosoation`">Supprimer</a></td>
+        <td style="border-bottom: black 2px solid; border-right: black 2px solid"><a href="AbonneEdit.php?id=<?= $assosiation['id']?>&table=assosoation">Editer</a></td>
     </tr>
     <?php } ?>
     </tbody>

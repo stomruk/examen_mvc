@@ -25,7 +25,7 @@ if(!empty($_POST)){
 <a href="../index.php">Homepage</a>
 <br>
 <br>
-<a href="OuvragesList.php">Liste des Ouvrages</a>
+<a href="ouvrageList.php">Liste des Ouvrages</a>
 
 <form method="post">
     <h1>Formulaire Ouvrages</h1>
